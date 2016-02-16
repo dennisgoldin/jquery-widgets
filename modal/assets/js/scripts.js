@@ -2,7 +2,7 @@ $(function () {
   'use strict';
 
   $('.btn').on('click', function () {
-    $(this).text('Hi'); /* this --> only the button being clicked */
+    /* $(this).text('Hi');  this --> only the button being clicked */
     $('.modal-container').addClass('showing');
   });
 
